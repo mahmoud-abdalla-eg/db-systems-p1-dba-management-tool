@@ -1,6 +1,6 @@
 # Database Systems - Project 1: DBA Management Tool
 
-An interactive Java console application that connects to MySQL with JDBC and provides basic database administration operations on data and metadata.
+Database Systems class Project 1: an interactive Java console application that connects to MySQL with JDBC and provides basic database administration operations on data and metadata.
 
 ## Features
 
@@ -16,7 +16,7 @@ An interactive Java console application that connects to MySQL with JDBC and pro
 ## Project Structure
 
 ```text
-CST_DBS_P1_MahmoudAhmed/
+db-systems-p1-dba-management-tool/
 ├── lib/
 │   └── mysql-connector-j-9.5.0.jar  # MySQL JDBC driver
 ├── sql/
@@ -102,14 +102,3 @@ The sample employees include:
 | 103 | Mei Hassan |
 | 104 | Yusuf Zhang |
 | 105 | Sara Wang |
-
-## Troubleshooting
-
-- **Communications link failure:** Start MySQL Server and confirm that it is listening on port `3306`.
-- **No suitable driver found for `1234`:** The password was entered as the JDBC URL. Press Enter at the JDBC URL prompt and enter the password only at the password prompt.
-- **Access denied:** Check the MySQL username and password.
-- **Script file not found:** Run the program from the project folder so that `sql/init_sample_db.sql` can be found.
-
-## Repository Notes
-
-The `.gitignore` excludes compiled classes, PDF/DOCX reports, ZIP/RAR archives, IDE files, and temporary files. The source code, SQL script, run scripts, README, and JDBC driver remain available in the repository.
