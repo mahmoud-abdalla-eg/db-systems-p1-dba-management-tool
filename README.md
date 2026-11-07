@@ -112,4 +112,4 @@ The sample employees include:
 
 ## Repository Notes
 
-The `.gitignore` excludes compiled classes, generated build folders, PDF/DOCX reports, ZIP/RAR archives, IDE files, temporary files, and local secrets. The source code, SQL script, run scripts, README, and JDBC driver remain available in the repository.
+The `.gitignore` excludes compiled classes, PDF/DOCX reports, ZIP/RAR archives, IDE files, and temporary files. The source code, SQL script, run scripts, README, and JDBC driver remain available in the repository.
