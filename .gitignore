@@ -1,0 +1,31 @@
+# Java build output
+bin/
+out/
+target/
+*.class
+
+# Submission documents and packaged archives
+*.pdf
+*.docx
+*.zip
+*.rar
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+
+# Temporary and backup files
+*.tmp
+*.log
+*.bak
+~$*
+Thumbs.db
+.DS_Store
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Keep the JDBC driver in lib/ because the project has no Maven/Gradle build file.
